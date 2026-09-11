@@ -1,7 +1,7 @@
 interface:
   display_name: "topic-skill"
-  short_description: "按需生成 AI 日报、抖音混合选题、素材包与每周复盘"
-  default_prompt: "使用 $topic-skill 在当前 Obsidian 知识库生成今天的 AI 日报、10 条混合选题与素材包。"
+  short_description: "按需生成全量精选、按讨论触发度排序的 AI 日报"
+  default_prompt: "使用 $topic-skill 在当前 Obsidian 知识库生成今天的 AI 日报。"
 
 policy:
   allow_implicit_invocation: true
